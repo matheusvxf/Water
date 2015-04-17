@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="components\source\Geode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Group.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\MatrixTransform.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Node.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Sphere.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Cube.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Camera.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\RenderableObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\Matrix4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Base.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\IUpdatable.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\MotionTransform.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Wall.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Keyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Mouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\Utility.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Source\window.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\World.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Light.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\ModelLoader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\NormalList.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\VerticeList.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\GeometryList.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\TriangleList.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Switch.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Lamp.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\SpotLight.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Cone.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\GLee.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Bear.cpp" />
+    <ClCompile Include="components\source\bear_model.cpp" />
+    <ClCompile Include="components\source\Bunny.cpp" />
+    <ClCompile Include="components\source\bunny_model.cpp" />
+    <ClCompile Include="components\source\Dragon.cpp" />
+    <ClCompile Include="components\source\dragon_model.cpp" />
+    <ClCompile Include="components\source\Material.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Shader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Texture.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Patch.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\source\ObjectModel.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Skybox.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="components\source\Box.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="components\include\Sphere.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Node.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\MatrixTransform.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Geode.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Group.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Cube.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Object.h">
+      <Filter>Object\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Camera.h">
+      <Filter>Object\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\RenderableObject.h">
+      <Filter>Object\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Matrix4.h">
+      <Filter>Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Vector4.h">
+      <Filter>Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Vector3.h">
+      <Filter>Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Base.h">
+      <Filter>Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\IUpdatable.h">
+      <Filter>Object\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\MotionTransform.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Wall.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\World.h">
+      <Filter>Object\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Config.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\DataType.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Keyboard.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\main.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Mouse.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Utility.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\tga.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\Window.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Light.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\ModelLoader.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\NormalList.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\VerticeList.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\GeometryList.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\TriangleList.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\include\ObjectModel.h">
+      <Filter>Object\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Switch.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Material.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Lamp.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Color.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Cone.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\SpotLight.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\GLee.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Patch.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Bear.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\bear_model.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Bunny.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\bunny_model.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\cow_model.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Dragon.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\dragon_model.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Skybox.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Texture.h">
+      <Filter>SceneGraph\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Shader.h">
+      <Filter>System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="components\include\Box.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{444cb62a-2159-4386-8804-d473d79bd9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph\include">
+      <UniqueIdentifier>{16f92c7a-4a32-4691-8a14-2638e9107fc0}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{fe1b4170-aded-4278-b9d5-941221d5e969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\include">
+      <UniqueIdentifier>{54fec74e-d6b0-452f-b71b-348b7be65a58}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{d6ab9e4c-bbf7-47cf-80ef-cf2f19c71429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\include">
+      <UniqueIdentifier>{3c9e921d-6ed7-4c7d-bb57-9f6abbc3a45a}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{180eabd3-90b5-4118-9b7b-8a89b4b6e593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\include">
+      <UniqueIdentifier>{f88bbeb3-d7d6-46b2-b434-9852cb53d2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{25d7ad40-d8f9-4df6-aa04-993bf2c18a3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shader\texture2D.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\texture2D.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\simple.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\simple.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\shader.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\shader.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\diffuse_shading.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\diffuse_shading.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\spotlight.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\spotlight.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\reflection.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\reflection.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\skybox.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="resources\shader\skybox.vert">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
